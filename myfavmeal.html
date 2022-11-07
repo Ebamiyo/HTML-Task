@@ -6,20 +6,53 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Favourite Meal</title>
     <style>
+        header {
+            text-align: center;
+            background-color: aqua;
+        }
+        .preparation{
+            background-color: azure;
+        }
         .about {
             background-color: lavenderblush;
         }
         body {
             background-color: ghostwhite;
+            font-size: 1.5rem;
         }
+        .footer {
+            text-align: center;
+            text-decoration: none;
+        }
+
+        .link {
+            color: peru; 
+            text-decoration: none;           
+        }
+
+        .video-link {
+            text-decoration: none;
+        }
+
         img {
-            width: 400px;
-            height: 400px;
+            width: 600px;
+            height: 500px;
             border: 1px solid;
+            border-radius: 10px;
+        }
+
+        .ingredients {
+            background-color: aquamarine;
         }
         table, th, td {
             border: 2px solid;
             border-collapse: collapse;
+            padding: 10px;
+        }
+
+        table {
+            width: 70%;
+            margin: auto;  
         }
     </style>
 </head>
@@ -38,7 +71,7 @@
                 <p><h3>VEGETABLES:</h3>Vegetables are healthy and tasty plants that take meals to the next level. Vegetables that are great for a tasty plate of egg sauce include carrots, spring onions, bell peppers, tomatoes and scotch bonnet to mention a few.</p>
             </div>
         </section>      
-        <section>
+        <section class="ingredients">
             <h2>Ingredients</h2>
             <table>
                 <thead>
@@ -98,30 +131,35 @@
                 </tbody>
             </table>
         </section>
-        <section>
+        <section class="Preparation">
             <h2>BOILED YAM PREPARATION</h2>
             <ol>
                 <li>Slice yam into about 1-inch size and peel the skin</li>
-                <li>Rinse in clean water till water runs clear and no reisdue in water</li>
+                <li>Rinse in clean water till water runs clear and no residue in water</li>
                 <li>Put yam in a pan, add enough water to cover it, add salt and place on medium heat and cook till soft. Test with a fork, if it goes through, then the yam should be soft enough. Drain water from yam if you want.</li>
-                <li></li>
             </ol>
             <h2>EGG SAUCE PREPARATION</h2>
             <ol>
                 <li>Break eggs into a shallow bowl, whisk till egg white and egg yolk are well combined, add salt and whisk to combine then set it aside</li>
-                <li>Place a frying pan on a medium/low heat, add of vegetable oil, heat for about 2-3 minutes</li>
-                <li>Add chopped peppers and onions (this should sizzle) and cook for about 4-5 minutes or till oil floats on the sauce, add salt, seasoning, curry and thyme. Stir to combine ingredient with sauce and also avoid sauce sticking to the pan.</li>
-                <li>Add whisked eggs to sauce and leave for about a minute, this will allow the egg to set a bit) Stir to scramble egg.</li>
+                <li>Place a frying pan on a medium/low heat, add vegetable oil, heat for about 2-3 minutes</li>
+                <li>Add chopped peppers and onions (this should sizzle) and cook for about 4-5 minutes or till oil floats on the sauce, add salt, seasoning, curry and thyme.</li>
+                <li>Stir to combine ingredient with sauce and also avoid sauce sticking to the pan.</li>
+                <li>Add whisked eggs to sauce and leave for about a minute, this will allow the egg to set a bit. Stir to scramble egg.</li>
                 <li>Serve egg sauce with boiled yam immediately.</li>
             </ol>
         </section>
-        <section>
-            <img src="https://www.myactivekitchen.com/wp-content/uploads/2015/03/yam-and-egg-sauce-image-3.jpg" alt="yam-and-eggsauce">
-            <img src="https://www.foodnify.com/wp-content/uploads/2021/07/boiled-yam-egg-sauce.jpg" alt="yam-and-eggsauce">
-            <img src="https://i.ytimg.com/vi/LnfeYXsFi2Y/maxresdefault.jpg" alt="yam-and-eggsauce">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/2/2d/Yam_and_fried_egg.jpg" alt="yam-and-eggsauce">
+        <section class="images">
+            <ul>
+                <li><img src="https://www.myactivekitchen.com/wp-content/uploads/2015/03/yam-and-egg-sauce-image-3.jpg" alt="yam-and-eggsauce"></li>
+                <li><img src="https://www.foodnify.com/wp-content/uploads/2021/07/boiled-yam-egg-sauce.jpg" alt="yam-and-eggsauce"></li>
+                <li><img src="https://i.ytimg.com/vi/LnfeYXsFi2Y/maxresdefault.jpg" alt="yam-and-eggsauce"></li>           
+                <li><img src="https://upload.wikimedia.org/wikipedia/commons/2/2d/Yam_and_fried_egg.jpg" alt="yam-and-eggsauce"></li>
+            </ul>
         </section>
-        <p>Want a video? Watch <span><a href="https://www.youtube.com/watch?v=qPfdvbf_GkA&t=25s">here</a></span></p>
+        <p class="footer"> <a class="link" href="https://www.myactivekitchen.com/yam-and-egg-sauce/">Article Reference</a> <br> <br> Want a video? Watch <a class="video-link" href="https://www.youtube.com/watch?v=qPfdvbf_GkA&t=25s">here</a></p>
     </main>
+    <footer>
+        
+    </footer>
 </body>
 </html>
