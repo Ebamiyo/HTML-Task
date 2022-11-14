@@ -1,0 +1,91 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.main_container {
+    background-color: aliceblue;
+    padding: 2rem;
+}
+
+#first_maincontainer {
+    background-color: lightsalmon;
+    padding: 1.5rem;
+}
+
+.heading {
+    color: rgba(46, 133, 209, 0.863);
+    font-weight: 400;
+}
+
+#first_h3 {
+    color:yellow;
+    font-weight: 900;
+}
+
+.list_container {
+   list-style-type: lower-roman;
+   color:beige;
+   padding-left: 3rem;
+   margin-top: 1rem;
+}
+
+#ordered_list {
+    list-style-type: upper-roman;
+    color:rgb(43, 255, 0);
+    padding-left: 1.5rem;
+}
+
+.ordered_list_item {
+    background-color: rgb(240, 87, 87);
+}
+
+#love{
+    list-style-type:lower-roman ;
+}
+
+#integrity {
+    color: whitesmoke;
+}
+
+#reliability {
+    color: rgb(135, 241, 201);
+}
+
+#openness {
+    color:cyan;
+    list-style-type: lower-roman;
+}
+#loyalty {
+    background-color: gold;
+    color:cornsilk
+}
+
+#second_maincontainer {
+  background-color: yellow;
+}
+
+#second_h3 {
+    font-weight:700;
+    color: crimson;
+}
+
+#unordered_list {
+    list-style-type: disc;
+    color:rgb(240, 87, 87);
+    background-color: rgb(255, 218, 123);
+}
+
+#deception {
+    color:darkorange;
+    list-style-type: circle;
+}
+
+#bullying {
+    color:red;
+    list-style-type: square;
+}
+#Inequity{
+    color:olive;
+    list-style-type: disc;
+}
