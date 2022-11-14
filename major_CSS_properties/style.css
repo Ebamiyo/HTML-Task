@@ -1,0 +1,24 @@
+section{
+    background-color: white; 
+    padding:1.5rem; 
+    margin-bottom: 1rem;
+}
+
+.first_section {
+    color:green; 
+    border: 2px dotted red;
+}
+
+p {
+    font-size: 14px;
+}
+
+.second_section {
+    border: 2px dashed green;
+    color: red;
+}
+
+.third_section {
+    color: blue;
+    border: 2px solid brown;
+}
