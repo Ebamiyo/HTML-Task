@@ -1,0 +1,52 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.main_div {
+    font-family: 'GT Eesti Display',-apple-system,system-ui,BlinkMacSystemFont,'Segoe UI',Roboto,Oxygen-Sans,Ubuntu,Cantarell,'Helvetica Neue',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol';
+    margin: auto;
+    padding: 20px;
+    border: 1px solid lightgray;
+    border-radius: 20px;
+    width: 22%;
+}
+a {
+    border: 1px solid;
+    border-radius: 30px;
+    padding: 15px 95px;
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+   background-color:  lightgray;
+}
+.first_h3 {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+.second_h3 {
+    margin-top: 2rem;
+}
+
+li {
+    list-style-type: none;
+}
+ul li:before {
+     content: '✓';
+     font-weight: 1000;
+     margin-right: 10px;
+}
+
+p {
+    font-size: 1.15rem;
+  font-weight: 600;
+  margin-top: 1rem;
+}
+h1 {
+    font-size: 4rem;
+    margin-bottom: 2rem;
+}
